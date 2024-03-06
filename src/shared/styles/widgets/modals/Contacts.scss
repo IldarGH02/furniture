@@ -1,0 +1,16 @@
+.modal__contacts {
+    position: absolute;
+    left: 0;
+    bottom: 65%;
+    max-width: 600px;
+    background-color: $whiteColor;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    -webkit-box-shadow: -4px 0px 20px 2px rgba(4,  4,  4, 0.60);
+    -moz-box-shadow: -4px 0px 20px 2px rgba(4,  4,  4, 0.60);
+    box-shadow: -4px 0px 20px 2px rgba(4,  4,  4, 0.60);
+
+    .contacts__content {
+        padding: 20px;     
+    }
+}

@@ -1,0 +1,30 @@
+@import './common/common.scss';
+@import '~bootstrap/scss/bootstrap';
+@import './pages/pages.scss';
+@import './widgets/modals/modals.scss';
+@import './ui/ui.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+
+body {
+    min-width: 320px;
+    margin: 0 auto;
+    font-family: "Open Sans", sans-serif;
+    height: 100svh;
+    background-image: url('../assets/images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+    #root {
+        height: 100%;
+    }
+}
